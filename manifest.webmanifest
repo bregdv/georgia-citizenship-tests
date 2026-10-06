@@ -1,0 +1,13 @@
+{
+  "name": "Мოქალაქე — гражданство Грузии",
+  "short_name": "Мოქალაქე",
+  "description": "Автономный тренажёр тестов на гражданство Грузии",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f5f7",
+  "theme_color": "#c8192f",
+  "lang": "ru",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

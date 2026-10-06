@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#c8192f" />
+    <meta name="description" content="Тренажёр тестов на гражданство Грузии: язык, история и основы права." />
+    <title>Мოქალაქე — тесты на гражданство Грузии</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c8192f'/%3E%3Cpath d='M27 10h10v17h17v10H37v17H27V37H10V27h17z' fill='white'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Перейти к содержимому</a>
+    <div class="app-shell">
+      <header class="topbar">
+        <button class="brand" type="button" data-action="home" aria-label="На главную">
+          <span class="brand-mark" aria-hidden="true">მ</span>
+          <span><strong>მოქალაქე</strong><small>Гражданство Грузии</small></span>
+        </button>
+        <div class="topbar-actions">
+          <button class="icon-button" type="button" data-action="install" hidden aria-label="Установить приложение" title="Установить приложение">＋</button>
+          <button class="icon-button" type="button" data-action="theme" aria-label="Переключить тему" title="Переключить тему">◐</button>
+        </div>
+      </header>
+      <main id="app" tabindex="-1"></main>
+    </div>
+    <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <div id="dialog-root"></div>
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
